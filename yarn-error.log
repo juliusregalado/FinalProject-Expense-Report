@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/local/Cellar/node/9.4.0/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/juliusregalado/.rbenv/shims:/Users/juliusregalado/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/juliusregalado/.rbenv/shims:/Users/juliusregalado/.rbenv/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "finalproject2.0",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "author": "juliusregalado",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/juliusregalado"
+    },
+    "scripts": {
+      "serve": "live-server public/",
+      "build": "webpack",
+      "dev-server": "webpack-dev-server"
+    },
+    "dependencies": {
+      "babel-cli": "6.24.1",
+      "babel-core": "6.25.0",
+      "babel-loader": "7.1.1",
+      "babel-plugin-transform-class-properties": "6.24.1",
+      "babel-plugin-transform-object-rest-spread": "6.23.0",
+      "babel-preset-env": "1.5.2",
+      "babel-preset-react": "6.24.1",
+      "css-loader": "0.28.4",
+      "live-server": "^1.2.0",
+      "moment": "2.18.1",
+      "node-sass": "4.5.3",
+      "normalize.css": "7.0.0",
+      "react": "15.6.1",
+      "react-addons-shallow-compare": "15.6.0",
+      "react-dates": "12.3.0",
+      "react-dom": "15.6.1",
+      "react-modal": "2.2.2",
+      "react-redux": "5.0.5",
+      "react-router-dom": "4.1.2",
+      "redux": "3.7.2",
+      "sass-loader": "6.0.6",
+      "style-loader": "0.18.2",
+      "uuid": "3.1.0",
+      "validator": "8.0.0",
+      "webpack": "3.1.0",
+      "webpack-dev-server": "2.5.1"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/juliusregalado/code/wdi/PROJECTS/FinalProject2.0/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:103:13
+      at <anonymous>
